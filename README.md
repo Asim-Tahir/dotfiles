@@ -1,7 +1,6 @@
 # Dotfiles
 Custom Shell Theme 🎨 and Plugins 🔌
 
-
 ## Preview 👀
 ![Preview of Terminal](https://user-images.githubusercontent.com/29407019/99193512-81b49e00-278a-11eb-9844-273df11536f4.png)
 
