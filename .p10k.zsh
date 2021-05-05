@@ -1,0 +1,1 @@
+/home/asimtahir/.p10k.zsh
