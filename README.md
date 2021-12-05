@@ -1,13 +1,10 @@
-# Dotfiles
-Custom Shell Theme 🎨 and Plugins 🔌
-
 ## Preview 👀
 ![Preview of Terminal](https://user-images.githubusercontent.com/29407019/99193512-81b49e00-278a-11eb-9844-273df11536f4.png)
 
 ## Powered By ⚡
-- ZSH (Shell)
-- [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) (ZShell Plugin Manager)
-- [Powerlevel10K](https://github.com/romkatv/powerlevel10k) (ZSH Theme)
+- `zsh` *shell*
+- [`oh-my-zsh`](https://github.com/ohmyzsh/ohmyzsh) *zsh plugin manager*
+- [`powerlevel10K`](https://github.com/romkatv/powerlevel10k) *zsh theme*
 
 ## Plugins 🔌
 - [git](https://github.com/ohmyzsh/ohmyzsh/blob/master/plugins/git/git.plugin.zsh)
@@ -19,36 +16,33 @@ Custom Shell Theme 🎨 and Plugins 🔌
 
 ## Installation 💻
 
-1. ### `ZShell` (aka `ZSH`)
-    [Look at `oh-my-zsh` zsh installation wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
+### Linux 🐧/ MacOS 🍎
 
-2. ### `oh-my-zsh`
-    [Look at `oh-my-zsh` installation guide](https://github.com/ohmyzsh/ohmyzsh/wiki#welcome-to-the-oh-my-zsh-wiki)
+```log
+                                  !!WARNING!!
+     This script overwrite the files located in the $HOME directory.      
+                 (e.g. $HOME/.bashrc, $HOME/.zshrc etc.)                  
+```
 
-3. ### `Powerlevel10k`
-    [Look at `powerlevel10k` installation guide](https://github.com/romkatv/powerlevel10k#oh-my-zsh)
+#### curl
+```bash
+sh -c "$(curl -fsSL https://raw.github.com/Asim-Tahir/dotfiles/main/install.sh)"
+```
 
-4. ### `zsh-autosuggestions`
-    [Look at `zsh-autosuggestions` installation guide](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+#### wget
+```bash
+sh -c "$(wget https://raw.github.com/Asim-Tahir/dotfiles/main/install.sh -O -)"
+```
 
-5. ### `zsh-syntax-highlighting`
+#### fetch
+```bash
+sh -c "$(fetch -o - https://raw.github.com/Asim-Tahir/dotfiles/main/install.sh)"
+```
 
-    [Look at `zsh-syntax-highlighting` installation guide](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
+<!-- NOT READY YET -->
+<!-- ### Windows 💻
 
-6. ### Copy files to your home directory
-
-    ```zsh
-    cp -a . $HOME
-    # or
-    cp -a . ~
-    ```
-
-7. ### Refresh `.zshrc`
-
-    ```zsh
-    source $HOME/.zshrc
-    # or
-    source ~/.zshrc
-    ```
-
-8. ### Ready to use 🚀
+#### PowerShell
+```powershell
+iwr -URI https://raw.github.com/Asim-Tahir/dotfiles/main/install.sh -OutFile install.ps1 | powershell -c -noprofile -executionpolicy bypass -
+``` -->
