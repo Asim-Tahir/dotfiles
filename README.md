@@ -58,7 +58,7 @@
 
     <br/>
 
-- `docker` and `docker-compose` support. Easily display dotfiles.
+<!-- - `docker` and `docker-compose` support. Easily display dotfiles.
   #### `docker`
   ```bash
   docker run --rm -it asimtahir/dotfiles sh
@@ -67,3 +67,4 @@
   ```bash
   docker-compose up --rm -it
   ```
+ -->
