@@ -18,12 +18,6 @@
 
 ### Linux 🐧/ MacOS 🍎
 
-```log
-                                  !!WARNING!!
-     This script overwrite the files located in the $HOME directory.      
-                 (e.g. $HOME/.bashrc, $HOME/.zshrc etc.)                  
-```
-
 #### curl
 ```bash
 sh -c "$(curl -fsSL https://raw.github.com/Asim-Tahir/dotfiles/main/install.sh)"
