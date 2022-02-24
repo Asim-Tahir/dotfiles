@@ -53,7 +53,7 @@
     <!-- NOT READY YET -->
     <!-- #### PowerShell
     ```powershell
-    (iwr -URI https://raw.github.com/Asim-Tahir/dotfiles/main/install.ps1 -UseBasicParsing).Content | powershell -c -noprofile -executionpolicy bypass -
+    (iwr -UseBasicParsing "https://raw.github.com/Asim-Tahir/dotfiles/main/install.ps1" | Invoke-Expression
     ``` -->
 
     <br/>
